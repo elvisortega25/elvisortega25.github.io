@@ -1,0 +1,245 @@
+/* Reset de márgenes y padding para todos los elementos */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Sedan+SC&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+/* Estilos globales */
+body {
+  background-color: rgb(20, 20, 20);
+  font-family: Arial, sans-serif; /* Utilizamos una fuente genérica para asegurar la legibilidad */
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: rgb(43, 42, 42);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+header h1 {
+  color: rgb(177, 29, 29);
+  font-size: 85px;
+
+}
+
+
+/* Estilos para el menú de navegación */
+nav {
+  background-color: rgb(51, 51, 51);
+  padding: 0; /* Eliminar el relleno */
+  margin: 0; /* Eliminar el margen */
+  display: flex;
+  justify-content: space-between; /* Ajustar a la pantalla */
+  align-items: center; /* Centrar verticalmente */
+  width: 100%; /* Ajustar al 100% del ancho de la pantalla */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  display: flex; /* Cambio a flex para que los elementos se ajusten verticalmente */
+  flex-direction: column; /* Los elementos se colocarán en columna */
+  align-items: center; /* Centrar los elementos horizontalmente */
+  color: rgb(177, 23, 23);
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves para efectos de hover */
+  font-family: "Poetsen One", sans-serif; 
+  font-weight: 400; /* Corrección en la propiedad font-weight */
+  font-style: normal; /* Corrección en la propiedad font-style */
+}
+
+nav ul li a:hover {
+  color: #ff8800;
+  transform: scale(1.1);
+  box-shadow: 10px 10px 10px rgb(214, 89, 17);
+}
+
+nav a:hover {
+  background-color: rgba(90, 90, 90, 0.829);
+  transform: scale(1.05);
+}
+
+iframe {
+  
+  border: none;
+  border-radius: 20px;
+  /* Elimina el margen izquierdo */
+  margin-left: 0;
+  /* Ajusta el ancho al 100% */
+  width: 100%;
+  height: 200px;
+ 
+}
+img{
+  border: none;
+  border-radius: 20px;
+  /* Elimina el margen izquierdo */
+  margin-left: 0;
+  /* Ajusta el ancho al 100% */
+  width: 100%;
+  height: 120px;
+}
+img.testi{
+  width: 100%;
+  height: auto;
+  border: none;
+}
+
+
+
+/* Estilos para el contenido principal */
+main {
+  padding: 20px;
+}
+
+div {
+  background-color: #ececec;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 50px; /* Añadimos bordes redondeados para suavizar el aspecto */
+  align-items: center;
+  text-align: center;
+ 
+}
+video {
+  width: 80%; /* Cambié max-width por width para que el video ocupe el 90% del contenedor */
+  height: auto; /* Esto hará que el video mantenga su relación de aspecto */
+  border-radius: 20px; /* Establezco el radio del borde */
+  border: none; /* Oculto el borde */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Esto centrará horizontalmente el elemento de video */
+}
+
+
+
+h1.obser{
+  font-family: "Poetsen One", sans-serif;
+  color:  #8f0a0a;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+div h2 {
+  color: rgb(175, 36, 36);
+  font-size: 39px;
+  margin-bottom: 20px;
+  font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+div p {
+  color: rgb(8, 8, 8);
+  font-size: 30px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+  
+}
+section div{
+  background-color: #06ee4000;
+   
+  
+}
+section div h3{
+  font-size: 30px;
+  font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+section div h4{
+  font-size: 20px;
+  font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+.pcom{
+  font-size: 30px;
+}
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  padding: 20px;
+  color: rgb(177, 177, 177);
+  text-align: center;
+}
+.testimonio1 {
+  background-color: rgba(180, 180, 180, 0.836);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(245, 245, 245, 0.1);
+  margin: 20px;
+  padding: 20px;
+  width: calc(33% - 40px);
+  max-width: 800px;
+  text-align: center;
+  transition: transform 0.3s ease;
+
+}
+
+
+.testimonio1:hover {
+  transform: translateY(-5px);
+  transform: scale(1.01);
+}
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 10px 10px;
+}
+
+footer hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgb(255, 1, 1), rgba(196, 194, 194, 0.925), rgb(255, 5, 5));
+  
+}
+footer{
+  font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+footer a {
+  color: rgb(240, 239, 239);
+  text-decoration: none;
+  margin: 0 5px;
+  transition: color 0.5s ease; /* Transición suave para los enlaces */
+
+}
+
+footer a:hover {
+  color: rgb(209, 18, 18);
+}
+
+
+/* Estilos para las imágenes dentro del footer */
+footer img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-right: 5px;
+  transition: transform 0.3s ease; /* Transición suave para las imágenes */
+  display: inline-block; /* Alinear las imágenes en línea */
+}
+
+
+footer img:hover {
+  transform: scale(1.1);
+}

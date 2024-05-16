@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Sedan+SC&display=swap');
+
+
+
+/* Estilos Generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #201f1f;
+}
+header {
+    background-color: rgb(34, 34, 34);
+    color: rgb(184, 9, 9);
+    font-size: 200%;
+    text-align:center;
+    padding: 10px 10px;
+    box-shadow:  100px 100px 100px 100px rgb(206, 5, 5);
+    
+}
+h1{
+    font-size: 75px;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 80px;
+    transition: transform 0.3s ease-in-out;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 35px;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+nav ul li a:hover {
+    color: #ff8800;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px rgb(214, 89, 17);
+}
+ nav ul li a:hover {
+    color: #ff7300;
+    transform: scale(1.1);
+    background-color: #333;
+}
+
+nav ul li a img {
+    max-width: 50px; /* Ajusta el tamaño de las imágenes */
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    display: block;
+}
+
+section {
+    background-color: rgb(228, 228, 228);
+    padding: 50px;
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(255, 72, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+iframe{
+    width: 300px;
+    height: 300px;
+    border: hidden;
+    align-items: center;
+    
+}
+section h2 {
+font-size: 250%;
+    color: rgb(255, 0, 0);
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+p{
+    font-size: 200%;
+    font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+footer hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgb(255, 1, 1), rgba(196, 194, 194, 0.925), rgb(255, 5, 5));    
+  }

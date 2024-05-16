@@ -1,0 +1,95 @@
+/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Sedan+SC&display=swap');
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+header {
+    background-color: rgb(43, 43, 43);
+    color: rgb(173, 24, 24);
+    text-align: center;
+    padding: 20px 0;
+    box-shadow:  100px 100px 100px 100px rgb(117, 15, 15);
+}
+
+h1 {
+    margin: 0;
+    font-size: 80px;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+iframe{
+    width: 350px;
+    height: 290px;
+    border: hidden
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.ciudad {
+    background-color: rgb(139, 139, 139);
+    border-radius: 10px;
+    box-shadow:  20px 20px rgb(151, 22, 22);
+    margin: 15px;
+    margin: auto;
+    max-width: 250px;
+    padding: 20px;
+    width: calc(30% - 40px);
+    max-width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.ciudad:hover {
+    transform: translateY(-5px);
+    transform: scale(1.1);
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 250%;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+p {
+    color: rgb(0, 0, 0);
+    font-size: 200%;
+    font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+
+footer {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    margin-top: auto; 
+}
+
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px black;
+
+}
+footer hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgb(255, 1, 1), rgba(196, 194, 194, 0.925), rgb(255, 5, 5));    
+  }

@@ -1,0 +1,167 @@
+/* Estilos para el cuerpo del formulario */
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Sedan+SC&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7c0b0b;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Estilos para el contenedor principal */
+.cont {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgb(189, 189, 189);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.h4{
+    text-align: center;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+/* Estilos para el título principal */
+.h11 {
+    color: rgb(182, 57, 8);
+    font-size: 250%;
+    text-align: center;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+/* Estilos para el subtítulo */
+.cont p {
+    color: rgb(0, 0, 0);
+    font-size: 150%;
+    text-align: center;
+    font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+legend{
+    font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+
+/* Estilos para el número de contacto */
+.h12 {
+    color: #ff9100;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+/* Estilos para el ícono de WhatsApp */
+.whassapp {
+    text-align: center;
+}
+
+/* Estilos para el ícono de WhatsApp */
+.whassapp2 {
+    width: 50px;
+    height: auto;
+}
+
+/* Estilos para el formulario */
+fieldset {
+    font-size: 180%;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: rgb(233, 232, 232);
+}
+.manu{
+    font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+.Asunto{
+    font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+
+/* Estilos para la leyenda del formulario */
+legend {
+    font-weight: bold;
+    color: rgb(102, 49, 0);
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+    display: block;
+    padding: 15px 15px ;
+    margin-bottom: 0px;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+}
+
+/* Estilos para el botón de enviar */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+option{
+    font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+.ema{
+    
+    font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+.textarea{
+    font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+img{
+    width: 80px;
+    height: 70px;
+    border:hidden;
+    border-radius: 50%;
+}
+input[type="radio"]{
+    border: 0px;
+    width: 3%;
+    height: 1.7em; 
+}
+
+/* Estilos para el botón de borrar */
+input[type="reset"] {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+/* Estilos para el botón de enviar al pasar el mouse */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+footer hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgb(255, 1, 1), rgba(196, 194, 194, 0.925), rgb(255, 5, 5));    
+  }

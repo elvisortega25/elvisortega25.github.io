@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaja con Nosotros - MotorFull</title>
+    <link rel="icon" href="/Imagenes/7_iconos/trabaja con nosotros.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/estillos css/8_trabajaconnosotro.css">
+</head>
+
+<body>
+    <header>
+        <h1>Trabaja con Nosotros - MotorFull</h1>
+    </header>
+
+    <nav>
+
+    </nav>
+
+    <section>
+        <h2>Requisitos para Trabajar con Nosotros</h2>
+        <ul type="square">
+            <li>Experiencia previa en ventas de vehículos, preferiblemente motocicletas.</li>
+            <li>Habilidad para trabajar en equipo y bajo presión.</li>
+            <li>Excelentes habilidades de comunicación.</li>
+
+        </ul>
+    </section>
+
+    <section>
+        <h2>Beneficios al Trabajar con Nosotros</h2>
+        <ul type="square">
+            <li>Oportunidades de crecimiento profesional.</li>
+            <li>Entorno de trabajo dinámico y colaborativo.</li>
+            <li>Paquete de beneficios competitivo.</li>
+
+        </ul>
+    </section>
+
+    <section>
+        <h2>Puestos de Trabajo</h2>
+        <div class="puesto">
+            <h3>Vendedor</h3>
+            <p><strong>Conocimiento:</strong> Conocimiento en ventas, preferiblemente en el área de vehículos.</p>
+            <p><strong>Requisitos:</strong> Experiencia previa en ventas, habilidades de comunicación, orientado a
+                resultados.</p>
+            <p><strong>Descripción del Trabajo:</strong> Responsable de la venta directa de motocicletas a clientes
+                potenciales, seguimiento de clientes, alcanzar metas de ventas establecidas.</p>
+        </div>
+
+        <div class="puesto">
+            <h3>Gerente de Ventas</h3>
+            <p><strong>Conocimiento:</strong> Experiencia en gestión de ventas, liderazgo de equipos.</p>
+            <p><strong>Requisitos:</strong> Experiencia previa en puestos de supervisión, habilidades de liderazgo,
+                capacidad para establecer y alcanzar objetivos.</p>
+            <p><strong>Descripción del Trabajo:</strong> Supervisar y dirigir el equipo de ventas, desarrollar
+                estrategias para aumentar las ventas, establecer metas y objetivos para el equipo, reportar resultados a
+                la dirección.</p>
+        </div>
+
+        <div class="puesto">
+            <h3>Mecánico</h3>
+            <p><strong>Conocimiento:</strong> Experiencia en mecánica de motocicletas, conocimientos de diagnóstico y
+                reparación.</p>
+            <p><strong>Requisitos:</strong> Experiencia previa como mecánico de motocicletas, certificación preferida,
+                atención al detalle.</p>
+            <p><strong>Descripción del Trabajo:</strong> Realizar mantenimiento y reparaciones en motocicletas,
+                diagnóstico y solución de problemas, cumplir con estándares de calidad y seguridad.</p>
+        </div>
+    </section>
+    <br>
+    
+    <section class="tale">
+        
+        <h2>Sobre el Talento en MotorFull</h2>
+        <p>En MotorFull valoramos el talento y la dedicación de nuestro equipo. Creemos en el potencial de cada
+            individuo para contribuir al éxito de nuestra empresa. Trabajamos juntos para ofrecer a nuestros clientes la
+            mejor experiencia en la compra de motocicletas, y nuestro equipo es fundamental para lograrlo.</p>
+    </section>
+
+    <section>
+        <br>
+        <h2>Seleccionar Puesto de Trabajo</h2>
+        <form action="procesar_formulario.php" method="post">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ejm: Pedro Suarez" class="nom">
+            <br>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required placeholder="Ejm:motorsfull@gmail.com" class="ema"
+            <br>
+            <label for="fecha_postulacion">Fecha de Postulación:</label>
+            <input type="date" id="fecha_postulacion" name="fecha_postulacion" required>
+            <br>
+            <label for="puesto">Puesto de Trabajo:</label>
+            <select name="puesto" id="puesto">
+                <option value="vendedor">Vendedor</option>
+                <option value="gerente_ventas">Gerente de Ventas</option>
+                <option value="mecanico">Mecánico</option>
+
+            </select>
+            <br>
+            <label for="hoja_vida">Adjuntar Hoja de Vida:</label>
+            <input type="file" id="hoja_vida" name="hoja_vida" accept=".pdf,.doc,.docx" class="ar">
+            <br>
+            <input type="submit" value="Envar datos ">
+        </form>
+    </section>
+
+
+    <footer>
+        <hr>
+        <p>&copy; 2024 - Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

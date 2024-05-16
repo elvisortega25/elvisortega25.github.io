@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Sedan+SC&display=swap');/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+/* Estilos para los títulos de sección */
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+/* Estilos para los subtítulos de sección */
+h3 {
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+/* Estilos para los párrafos de texto */
+p {
+    color: #666;
+    line-height: 1.6;
+    font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+
+/* Estilos para las listas */
+ul {
+    color: #666;
+    line-height: 1.6;
+    font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+
+/* Estilos para los enlaces */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el formulario */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+
+input[type="file"] {
+    margin-top: 5px;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    font-family: "Poetsen One", sans-serif; peso de fuente: 400; estilo de fuente: normal; 
+}
+.ar{
+    font-family: "Sedan SC", serif; peso de fuente: 400; estilo de fuente: normal;
+}
+
+/* Estilos para los puestos de trabajo */
+.puesto {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.tale{
+    text-align: center;
+}
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+footer hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgb(255, 1, 1), rgba(196, 194, 194, 0.925), rgb(255, 5, 5));    
+  }
